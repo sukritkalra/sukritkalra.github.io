@@ -22,6 +22,8 @@
 .wrapper {
     max-width: 1200px;
     margin: auto auto;
+    padding-left: $spacing-unit / 2;
+    padding-right: $spacing-unit / 2;
 }
 
 .profile-box {
