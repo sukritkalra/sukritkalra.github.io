@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+          <div class="profile-box">
+              <img src="data/profile.jpg" />
+          </div>
+
+          <div class="content-text">
+              <p>
+              I'm a 4<sup>th</sup> year Ph.D. student in the 
+              <a href=https://rise.cs.berkeley.edu>RISELab at UC Berkeley</a>
+              working with 
+              <a href=https://people.eecs.berkeley.edu/~istoica/>Prof. Ion Stoica</a>
+              and <a href=https://people.eecs.berkeley.edu/~jegonzal/>Prof. Joseph Gonzalez</a>.
+              </p>
+
+
+              <p>
+              I'm currently interested in distributed systems for applications
+              that must continuously interact with the real-world 
+              (e.g., robots and autonomous vehicles), and help develop:
+              <ul>
+                  <li><a href=blah>ERDOS</a>, a platform for the execution of
+                      robotics and autonomous vehicle applications.</li>
+                  <li><a href=blah>Pylot</a>, a modular autonomous vehicle
+                      pipeline that is able to drive vehicles in both 
+                      real-world and simulation. </li>
+              </ul>
+              </p>
+          </div>
+      </div>
+    </main>
+  </body>
+
+</html>
